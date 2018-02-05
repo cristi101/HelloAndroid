@@ -41,4 +41,36 @@
         <item name="android:layout_marginLeft">@dimen/logo_margin</item>
         <item name="android:layout_marginRight">@dimen/logo_margin</item>
     </style>
+
+    <style name="icon">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">@dimen/icon_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@id/id_logo</item>
+        <item name="android:layout_marginTop">@dimen/contact_gap</item>
+        <item name="android:layout_marginRight">@dimen/pic_gap</item>
+    </style>
+
+    <style name="contact">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/contact_size</item>
+        <item name="android:textColor">@color/addr_color</item>>
+        <item name="android:textStyle">italic</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="div_line">
+        <item name="android:background">@color/div_line_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/div_line_thick</item>
+        <item name="android:layout_marginBottom">@dimen/txt_margin</item>
+    </style>
+
+    <style name="addr_line">
+        <item name="android:background">@color/addr_line_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/addr_line_thick</item>
+    </style>
 </resources>

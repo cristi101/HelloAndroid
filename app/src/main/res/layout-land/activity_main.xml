@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background"
+    tools:context="eu.baboi.cristian.helloandroid.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/id_animal"
+        style="@style/animal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/desc_animal" />
+
+    <TextView
+        android:id="@+id/id_message"
+        style="@style/message" />
+
+    <ImageView
+        android:id="@+id/id_logo"
+        style="@style/logo"
+        android:layout_below="@id/id_message"
+        android:layout_toRightOf="@id/id_animal"
+        android:contentDescription="@string/desc_logo"
+        app:srcCompat="@drawable/udacity" />
+
+    <View
+        android:id="@+id/id_line"
+        style="@style/div_line"
+        android:layout_alignLeft="@id/id_logo"
+        android:layout_alignRight="@id/id_logo"
+        android:layout_below="@id/id_logo" />
+
+    <ImageView
+        android:id="@+id/loc_ico"
+        style="@style/icon"
+        android:layout_alignBottom="@id/id_city"
+        android:contentDescription="@string/desc_loc"
+        app:srcCompat="@drawable/ic_place_black_24dp" />
+
+    <TextView
+        android:id="@+id/id_street"
+        style="@style/contact"
+        android:layout_below="@id/id_line"
+        android:layout_toRightOf="@id/loc_ico"
+        android:text="@string/txt_street" />
+
+    <TextView
+        android:id="@+id/id_city"
+        style="@style/contact"
+        android:layout_alignLeft="@id/id_street"
+        android:layout_below="@id/id_street"
+        android:text="@string/txt_city" />
+
+    <View
+        style="@style/addr_line"
+        android:layout_alignBottom="@id/id_street"
+        android:layout_alignLeft="@id/id_street"
+        android:layout_alignRight="@id/id_street" />
+
+    <View
+        style="@style/addr_line"
+        android:layout_alignBottom="@id/id_city"
+        android:layout_alignLeft="@id/id_city"
+        android:layout_alignRight="@id/id_city" />
+
+
+    <ImageView
+        android:id="@+id/phone_ico"
+        style="@style/icon"
+        android:layout_below="@id/loc_ico"
+        android:contentDescription="@string/desc_phone"
+        app:srcCompat="@drawable/ic_phone_black_24dp" />
+
+    <TextView
+        android:id="@+id/id_phone"
+        style="@style/contact"
+        android:layout_alignBottom="@id/phone_ico"
+        android:layout_alignLeft="@id/id_street"
+        android:text="@string/txt_phone" />
+
+    <View
+        style="@style/addr_line"
+        android:layout_alignBottom="@id/id_phone"
+        android:layout_alignLeft="@id/id_phone"
+        android:layout_alignRight="@id/id_phone" />
+
+
+    <ImageView
+        android:id="@+id/web_ico"
+        style="@style/icon"
+        android:layout_below="@id/phone_ico"
+        android:contentDescription="@string/desc_web"
+        app:srcCompat="@drawable/ic_language_black_24dp" />
+
+    <TextView
+        android:id="@+id/id_web"
+        style="@style/contact"
+        android:layout_alignBottom="@id/web_ico"
+        android:layout_alignLeft="@id/id_street"
+        android:text="@string/txt_web" />
+
+    <View
+        style="@style/addr_line"
+        android:layout_alignBottom="@id/id_web"
+        android:layout_alignLeft="@id/id_web"
+        android:layout_alignRight="@id/id_web" />
+
+
+</RelativeLayout>

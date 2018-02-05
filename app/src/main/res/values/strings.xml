@@ -6,8 +6,17 @@
     <string name="desc_animal">Animal with laptop</string>
     <string name="desc_logo">Udacity logo</string>
 
+    <string name="desc_loc">Address</string>
+    <string name="desc_phone">Phone</string>
+    <string name="desc_web">Web address</string>
+
     <string name="txt_job">Get job ready!</string>
     <string name="txt_demand">Be in demand!</string>
     <string name="txt_future">Imagine your future!</string>
     <string name="txt_education">Democratize education!</string>
+
+    <string name="txt_street">2465 Latham St</string>
+    <string name="txt_city">Mountain View, CA 94043</string>
+    <string name="txt_phone">650-555-5555</string>
+    <string name="txt_web">www.udacity.com</string>
 </resources>

@@ -11,4 +11,8 @@
 
     <color name="logo_color">#2d3c49</color>
     <color name="u_color">#02b3e4</color>
+
+    <color name="addr_color">@android:color/black</color>
+    <color name="div_line_color">@android:color/holo_red_dark</color>
+    <color name="addr_line_color">@android:color/holo_green_dark</color>
 </resources>
