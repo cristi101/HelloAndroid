@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hello Android</string>
+    <string name="app_text">Get Job Ready!</string>
+
+    <string name="desc_qr">QR code</string>
+    <string name="desc_animal">Animal with laptop</string>
+    <string name="desc_logo">Udacity logo</string>
 </resources>
